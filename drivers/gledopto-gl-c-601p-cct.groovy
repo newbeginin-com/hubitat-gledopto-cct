@@ -1,5 +1,10 @@
 metadata {
-    definition(name: "GLEDOPTO GL-C-601P CCT", namespace: "newbeginin", author: "Brandon Ledford") {
+    definition(
+        name: "GLEDOPTO GL-C-601P CCT",
+        namespace: "newbeginin",
+        author: "Brandon Ledford",
+        importUrl: "https://raw.githubusercontent.com/newbeginin-com/hubitat-gledopto-cct/main/drivers/gledopto-gl-c-601p-cct.groovy"
+    ) {
         capability "Actuator"
         capability "Light"
         capability "Switch"
